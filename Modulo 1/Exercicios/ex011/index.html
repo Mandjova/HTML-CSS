@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem felivel">
+
+    </picture>
+    <h1>Reprodução de Audio</h1>
+    <p>vamos reproduzir um audio</p>
+    <h2>Floral Fury</h2>
+   <audio preload="auto" autoplay controls loop>
+    <source src="media/13 Floral Fury.flac" type="audio/mpeg">
+
+   </audio>
+   <p><a href="media/13 Floral Fury.flac" target="_blank" type="aplication/mpeg">Download</a></p>
+   <br>
+   <h2>megalovania</h2>
+   <audio controls loop>
+    <source src="media/mus_zz_megalovania.mp3" type="audio/mpeg">
+   
+   </audio>
+    <p><a href="media/mus_zz_megalovania.mp3" target="_blank">Download</a></p>
+
+    <h1>Reprodução de videos</h1>
+</body>
+</html>

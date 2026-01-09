@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: arial,helvetica,sans-serif;;
+            font-size: 16px;
+            background-color: dimgray;
+        }
+        header {
+            padding:10px;
+            margin:10px;
+            background-color: aliceblue;
+        }
+        nav {
+            background-color: #444444;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(255, 0, 0, 0.205);
+           
+        }
+        nav > a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+        nav > a:active {
+            text-decoration: none;
+            color:#0000ff
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 10px;
+            box-shadow: 3px 2px 5px 1px black;
+        }
+        footer {
+            background-color: #222222;
+            color: #ffffff;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: antiquewhite;
+            border-radius: 50px;
+            margin: auto;
+        }
+        div#bola:active{
+            background-color: #0000ff;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(163, 162, 162);
+          
+        }
+       
+    </style>
+</head>
+<body>
+   <header>
+    <h1>meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+      
+    </section>
+
+    <section id="noticias">
+        <article>
+            <h2>noticias</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iste, hic deleniti eius nostrum aperiam praesentium amet sed, excepturi tempore adipisci corporis perspiciatis delectus consectetur modi quidem, nesciunt accusamus error.</p>
+            <aside>
+                <p>Artigo desenvolviido por sabinochivinda</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </section>
+   </main>
+   <footer>
+    <p>desenvolvido por E&G studios</p>
+   </footer>
+   <div id="bola"></div>
+</body>
+
+</html>
